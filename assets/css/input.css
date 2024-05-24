@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .transition-global {
+        @apply transition-all duration-200 ease-in-out
+    }
+
+    .after-global {
+        @apply after:content-[''] relative after:absolute after:top-20 after:bg-[#0084D6] after:w-24 after:h-px after:right-[50%] after:translate-x-[50%]
+    }
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/font/Lato-BlackItalic.woff2') format('woff2'),
+        url('/assets/font/Lato-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/font/Lato-Bold.woff2') format('woff2'),
+        url('/assets/font/Lato-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/font/Lato-Black.woff2') format('woff2'),
+        url('/assets/font/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/font/Lato-Italic.woff2') format('woff2'),
+        url('/assets/font/Lato-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/font/Lato-Light.woff2') format('woff2'),
+        url('/assets/font/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/font/Lato-BoldItalic.woff2') format('woff2'),
+        url('/assets/font/Lato-BoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/font/Lato-LightItalic.woff2') format('woff2'),
+        url('/assets/font/Lato-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('/assets/font/Lato-Hairline.woff2') format('woff2'),
+        url('/assets/font/Lato-Hairline.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('/assets/font/Lato-HairlineItalic.woff2') format('woff2'),
+        url('/assets/font/Lato-HairlineItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/font/Lato-Regular.woff2') format('woff2'),
+        url('/assets/font/Lato-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
